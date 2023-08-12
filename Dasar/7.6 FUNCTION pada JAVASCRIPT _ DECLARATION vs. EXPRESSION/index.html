@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>7.6 FUNCTION pada JAVASCRIPT : DECLARATION vs. EXPRESSION</title>
+</head>
+<body>
+    <h3>Function Declaration vs Expression</h3>
+    <p>identifier is a name from programming language to give names to variables, functions and objects</p>
+    <h4>Function Declaration : </h4>
+    <p>function identifier (parameterList(optional)) {
+        <br /> &emsp; functionBody
+        <br /> }
+    </p>
+    <ul>
+        <li>More Flexible, can written anywhere(before and after called function)</li>
+        <ul>
+            <li>Because Hoisting concept</li>
+            <p>Hoisting is JavaScript mechanism where variables and function declarations are moved to the top of their
+                scope before code execution</p>
+        </ul>
+        <li>Tends to be easier to understand for beginners</li>
+    </ul>
+    <h4>Function Expression : </h4>
+    <p>function identifier(optional) (parameterList(optional)) {
+        <br /> &emsp; functionBody
+        <br />}
+    </p>
+    <ul>
+        <li>Must be defined first before being called</li>
+        <li>More Powerfull : </li>
+        <ul>
+            <li>As closure</li>
+            <li>As an argument to another function</li>
+            <li>IIFE (Immediately Invoked Function Expression)</li>
+        </ul>
+    </ul>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

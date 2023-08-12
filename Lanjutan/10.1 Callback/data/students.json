@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Aozora Umeko",
+        "nim": "639219930593",
+        "email": "aozoraumeko@gmail.com",
+        "departement": "Art Design",
+        "idGuardianLecturer": 1
+    },
+    {
+        "name": "Setsuna Rika",
+        "nim": "659673485348",
+        "email": "setsunarika@gmail.com",
+        "departement": "Etnomusiclogi",
+        "idGuardianLecturer": 2
+    },
+    {
+        "name": "Ahane Sayaka",
+        "nim": "527001564370",
+        "email": "ahanesayaka@gmail.com",
+        "departement": "Puppet Arts",
+        "idGuardianLecturer": 3
+    }
+]
